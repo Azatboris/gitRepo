@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-15T13:30:12 GMT-04:00" name="Suite" finished-at="2020-09-15T13:30:31 GMT-04:00" duration-ms="19038">
+    <groups>
+    </groups>
+    <test started-at="2020-09-15T13:30:12 GMT-04:00" name="Test" finished-at="2020-09-15T13:30:31 GMT-04:00" duration-ms="19038">
+      <class name="end.HomePage">
+        <test-method signature="HomePagebase(java.lang.String, java.lang.String)[pri:0, instance:end.HomePage@7364985f]" started-at="2020-09-15T13:30:12 GMT-04:00" name="HomePagebase" data-provider="getData" finished-at="2020-09-15T13:30:19 GMT-04:00" duration-ms="7421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aarabaev1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagebase -->
+        <test-method signature="HomePagebase(java.lang.String, java.lang.String)[pri:0, instance:end.HomePage@7364985f]" started-at="2020-09-15T13:30:19 GMT-04:00" name="HomePagebase" data-provider="getData" finished-at="2020-09-15T13:30:26 GMT-04:00" duration-ms="6470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aara]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagebase -->
+      </class> <!-- end.HomePage -->
+      <class name="end.assertionValidation">
+        <test-method signature="validation()[pri:0, instance:end.assertionValidation@5d20e46]" started-at="2020-09-15T13:30:26 GMT-04:00" name="validation" finished-at="2020-09-15T13:30:31 GMT-04:00" duration-ms="5115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- end.assertionValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

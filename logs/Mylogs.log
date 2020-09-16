@@ -1,0 +1,4 @@
+[ERROR] 2020-09-15 17:16:12.313 [main] log4jDemo - this is error
+[INFO ] 2020-09-15 17:16:12.316 [main] log4jDemo - yhis is info
+[ERROR] 2020-09-15 17:40:32.474 [main] log4jDemo - this is error
+[INFO ] 2020-09-15 17:40:32.476 [main] log4jDemo - yhis is info

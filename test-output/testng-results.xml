@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-15T20:36:31 GMT-04:00" name="Suite" finished-at="2020-09-15T20:36:54 GMT-04:00" duration-ms="22676">
+    <groups>
+    </groups>
+    <test started-at="2020-09-15T20:36:31 GMT-04:00" name="Test" finished-at="2020-09-15T20:36:54 GMT-04:00" duration-ms="22676">
+      <class name="end.assertionLog4J">
+        <test-method signature="validation()[pri:0, instance:end.assertionLog4J@670002]" started-at="2020-09-15T20:36:47 GMT-04:00" name="validation" finished-at="2020-09-15T20:36:54 GMT-04:00" duration-ms="6335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- end.assertionLog4J -->
+      <class name="end.HomePage">
+        <test-method is-config="true" signature="start()[pri:0, instance:end.HomePage@778d1062]" started-at="2020-09-15T20:36:31 GMT-04:00" name="start" finished-at="2020-09-15T20:36:33 GMT-04:00" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="HomePagebase(java.lang.String, java.lang.String)[pri:0, instance:end.HomePage@778d1062]" started-at="2020-09-15T20:36:37 GMT-04:00" name="HomePagebase" data-provider="getData" finished-at="2020-09-15T20:36:45 GMT-04:00" duration-ms="7982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aarabaev1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagebase -->
+        <test-method signature="HomePagebase(java.lang.String, java.lang.String)[pri:0, instance:end.HomePage@778d1062]" started-at="2020-09-15T20:36:45 GMT-04:00" name="HomePagebase" data-provider="getData" finished-at="2020-09-15T20:36:47 GMT-04:00" duration-ms="2103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aara]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePagebase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:end.HomePage@778d1062]" started-at="2020-09-15T20:36:54 GMT-04:00" name="close" finished-at="2020-09-15T20:36:54 GMT-04:00" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- end.HomePage -->
+      <class name="end.assertionValidation">
+        <test-method is-config="true" signature="start()[pri:0, instance:end.assertionValidation@2b6faea6]" started-at="2020-09-15T20:36:33 GMT-04:00" name="start" finished-at="2020-09-15T20:36:37 GMT-04:00" duration-ms="4409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="validation()[pri:0, instance:end.assertionValidation@2b6faea6]" started-at="2020-09-15T20:36:37 GMT-04:00" name="validation" finished-at="2020-09-15T20:36:37 GMT-04:00" duration-ms="49" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at end.assertionValidation.validation(assertionValidation.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+      </class> <!-- end.assertionValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
