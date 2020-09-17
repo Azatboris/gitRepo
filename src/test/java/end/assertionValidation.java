@@ -24,7 +24,10 @@ public class assertionValidation extends base{
 		//Assert.assertEquals(home.title().getText(), "FEATURED COURSES");
 		Assert.assertTrue(home.title().getText().contains("FEATURED1 COURSES"));
 		//Assert.assertFalse(home.title().getText().contains("FEATURED COURSES"));
-		
+		System.out.println("i made some changes");
+		System.out.println("i made some changes");
+		System.out.println("i made some changes");
+
 	}
 	
 }
